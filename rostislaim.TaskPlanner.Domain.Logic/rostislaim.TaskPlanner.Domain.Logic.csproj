@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>rostislaim.TaskPlanner.Domain.Logic</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\rostislaim.TaskPlanner.DataAccess.Abstractions\rostislaim.TaskPlanner.DataAccess.Abstractions.csproj" />
+    <ProjectReference Include="..\rostislaim.TaskPlanner.DataAccess\rostislaim.TaskPlanner.DataAccess.csproj" />
+    <ProjectReference Include="..\rostislaim.TaskPlanner.Domain.Models\rostislaim.TaskPlanner.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
